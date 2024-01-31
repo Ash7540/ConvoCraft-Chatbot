@@ -6,6 +6,9 @@ import json
 import nltk
 from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
+nltk.download('omw-1.4')
+nltk.download("punkt")
+nltk.download("wordnet")
 lemmatizer = WordNetLemmatizer()
 
 # Chat initialization
